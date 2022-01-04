@@ -1,0 +1,85 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  .header__name {
+    font-size: calc(30px + (30 - 25) * ((100vw - 320px) / (1200 - 320)));
+  }
+  .header__name + span {
+    font-size: calc(30px + (30 - 25) * ((100vw - 320px) / (1200 - 320)));
+  }
+} /* 1200px */
+
+@media (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+} /* 992 */
+
+@media (max-width: 768px) {
+  .container {
+    width: 548px;
+  }
+} /* 768 */
+
+@media (max-width: 670px) {
+  .container {
+    width: 548px;
+  }
+  .portfolio__btn {
+    display: none;
+  }
+  .portfolio__count {
+    display: none;
+  }
+  .portfolio__pages {
+    display: none;
+  }
+  .thumbnail__img {
+    border-radius: 1.5rem;
+  }
+  .thumbnail__link {
+    border-radius: 1.5rem;
+  }
+} /* 670 */
+
+@media (max-width: 576px) {
+  .container {
+    width: 90%;
+    padding: 0 15px;
+  }
+} /* 576 */
+
+@media (max-width: 395px) {
+  .container {
+    width: 90%;
+    padding: 0 15px;
+  }
+
+  .WordPress-icon {
+    margin-right: 5px !important;
+  }
+  .spoiler__text li {
+    text-align: center !important;
+  }
+  .spoiler__text span {
+    text-align: center !important;
+  }
+  .platform {
+    margin-left: 0 !important;
+  }
+} /* 395 */
+
+/*---------------работа с IE-----------------*/
+
+.ie9 body {
+  background-color: green;
+}
+
+/*медизапрос специально для IE. Данные стили применяются только для IE*/
+
+@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .jsMobile .burger {
+    padding-right: 60px;
+  }
+}
