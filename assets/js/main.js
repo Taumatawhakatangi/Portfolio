@@ -2,36 +2,36 @@ $(function () {
 
   // Кнопка где указано количество страниц
 
-  $('.portfolio__btn').click(function() {
-    $(this).toggleClass('goAlready'); 
-  })
-  $('.portfolio__count_item1').click(function() {
-    $('.portfolio__btn_item1').toggleClass('goAlready'); 
-  })
-  $('.portfolio__count_item2').click(function() {
-    $('.portfolio__btn_item2').toggleClass('goAlready'); 
-  })
-  $('.portfolio__count_item3').click(function() {
-    $('.portfolio__btn_item3').toggleClass('goAlready'); 
-  })
-  $('.portfolio__count_item4').click(function() {
-    $('.portfolio__btn_item4').toggleClass('goAlready'); 
-  })
-  $('.portfolio__count_item5').click(function() {
-    $('.portfolio__btn_item5').toggleClass('goAlready'); 
-  })
-  $('.portfolio__count_item6').click(function() {
-    $('.portfolio__btn_item6').toggleClass('goAlready'); 
-  })
-  $('.portfolio__count_item7').click(function() {
-    $('.portfolio__btn_item7').toggleClass('goAlready'); 
-  })
-  $('.portfolio__count_item8').click(function() {
-    $('.portfolio__btn_item8').toggleClass('goAlready'); 
-  })
-  $('.portfolio__count_item9').click(function() {
-    $('.portfolio__btn_item9').toggleClass('goAlready'); 
-  })
+  // $('.portfolio__btn').click(function() {
+  //   $(this).toggleClass('goAlready'); 
+  // })
+  // $('.portfolio__count_item1').click(function() {
+  //   $('.portfolio__btn_item1').toggleClass('goAlready'); 
+  // })
+  // $('.portfolio__count_item2').click(function() {
+  //   $('.portfolio__btn_item2').toggleClass('goAlready'); 
+  // })
+  // $('.portfolio__count_item3').click(function() {
+  //   $('.portfolio__btn_item3').toggleClass('goAlready'); 
+  // })
+  // $('.portfolio__count_item4').click(function() {
+  //   $('.portfolio__btn_item4').toggleClass('goAlready'); 
+  // })
+  // $('.portfolio__count_item5').click(function() {
+  //   $('.portfolio__btn_item5').toggleClass('goAlready'); 
+  // })
+  // $('.portfolio__count_item6').click(function() {
+  //   $('.portfolio__btn_item6').toggleClass('goAlready'); 
+  // })
+  // $('.portfolio__count_item7').click(function() {
+  //   $('.portfolio__btn_item7').toggleClass('goAlready'); 
+  // })
+  // $('.portfolio__count_item8').click(function() {
+  //   $('.portfolio__btn_item8').toggleClass('goAlready'); 
+  // })
+  // $('.portfolio__count_item9').click(function() {
+  //   $('.portfolio__btn_item9').toggleClass('goAlready'); 
+  // })
   
   // Табы 
   
