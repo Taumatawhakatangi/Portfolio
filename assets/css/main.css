@@ -1,0 +1,318 @@
+/* <!--noindex-->
+<a href="https://www.facebook.com" rel="nofollow noopener noreferrer"
+target="_blank">Facebook/iam</a>
+<!--/noindex--> */
+
+/* ------------------------------------------ */
+
+/* @media (max-width: 1200px) {
+	padding-bottom: calc(15px + (30 - 15) * ((100vw - 320px) / (1200 - 320)));
+	padding-top: calc(25px + (30 - 25) * ((100vw - 320px) / (1200 - 320)));
+  	margin-bottom: calc(15px + (30 - 15) * ((100vw - 320px) / (1200 - 320)));
+	margin-top: calc(25px + (30 - 25) * ((100vw - 320px) / (1200 - 320)));
+  	line-height: calc(15px + (30 - 15) * ((100vw - 320px) / (1200 - 320)));
+	font-size: calc(25px + (30 - 25) * ((100vw - 320px) / (1200 - 320)));
+  	width: calc(15px + (30 - 15) * ((100vw - 320px) / (1200 - 320)));
+	height: calc(25px + (30 - 25) * ((100vw - 320px) / (1200 - 320)));
+}
+
+/*     1      2    3        4       5         6      7          */
+/* calc(25px + (30 - 25) * ((100vw - 320px) / (1200 - 320)));
+первая цифра - та к которой мы хотим прийти
+вторая цифра - та которая есть сейчас изначально по макету десктоп
+третья цифра - та к которой мы хотим прийти 
+четвертая цифра - ширина и высота вьюпорта
+пятая цифра - расширение мобильника
+шестая цифра - расширение с которого изменения вступают в силу
+седьмая цифра - расширение к которому изменения польностью завершатся */
+*/
+
+/* --------------------------------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+  /* line-height: ; */
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font: 400 16px "Neo Sans Pro", sans-serif;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transition: all 0.5s ease;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+button,
+input,
+textarea,
+select {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  padding: 0;
+}
+
+input {
+  width: 100%;
+  /* max-width: ; */
+  /* background: ; */
+  border: 1px solid transparent;
+  border-radius: 0;
+  box-sizing: border-box;
+  box-shadow: none;
+  /* font-size: ; */
+  /* font-family: ; */
+  /* font-weight: ; */
+  /* color: ; */
+  caret-color: pink;
+}
+
+input:focus {
+  border: 1px solid #000;
+}
+
+label {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+button {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+span {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+}
+
+textarea {
+  box-shadow: none;
+  border-radius: 0;
+  resize: none;
+  /* min-width: ;
+	min-height: ;
+	padding-bottom: ;
+	font-weight: ;
+	font-size: ;
+	color: ;
+	border-bottom: ;
+	margin-bottom: ; */
+}
+
+/*scrollbar*/
+
+::-moz-selection {
+  background: #6e9c9f;
+  color: #fff;
+}
+
+::selection {
+  background: #000000;
+  color: rgb(255, 255, 255);
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  min-height: 100vh;
+  min-width: 320px;
+}
+
+.animated {
+  opacity: 0;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.btn {
+  width: 100%;
+  max-width: 243px;
+  text-align: center;
+  display: block;
+  padding: 2em 1em;
+  text-decoration: none;
+  background: #6e9c9f;
+  color: #fff;
+  letter-spacing: 0.02em;
+  transition: all 0.5s ease;
+  font-size: 17px;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  background: #509498;
+  border: 1px solid transparent;
+}
+
+.btn:active {
+  background: #2f8a8f;
+}
+
+.tel {
+  white-space: nowrap;
+}
+
+.transparent-btn {
+  font-size: 17px;
+  width: 100%;
+  text-align: center;
+  display: block;
+  padding: 22px;
+  max-width: 243px;
+  margin: 0 auto;
+  color: #6e9c9f;
+  letter-spacing: 0.02em;
+  background: transparent;
+  border: 1px solid #6e9c9f;
+  transition: all 0.5s ease;
+  white-space: nowrap;
+}
+
+.transparent-btn:hover {
+  background: #6e9c9f;
+  color: #fff;
+  border: 1px solid #6e9c9f;
+}
+
+.transparent-btn:active {
+  background: #2f8a8f;
+}
+
+/*footer*/
+
+.footer {
+  margin-top: auto;
+}
+
+/* tabs */
+
+.portfolio__btn.goAlready {
+  right: -170px;
+}
+.portfolio__btn.goAlready + .portfolio__pages {
+  right: -165px;
+}
+
+.portfolio__btn_item1.goAlready {
+  right: -170px;
+}
+.portfolio__btn_item1.goAlready + .portfolio__pages {
+  right: -165px;
+}
+
+.portfolio__btn_item2.goAlready {
+  right: -170px;
+}
+.portfolio__btn_item2.goAlready + .portfolio__pages {
+  right: -165px;
+}
+
+.portfolio__btn_item3.goAlready {
+  right: -170px;
+}
+.portfolio__btn_item3.goAlready + .portfolio__pages {
+  right: -165px;
+}
+
+.portfolio__btn_item4.goAlready {
+  right: -170px;
+}
+.portfolio__btn_item4.goAlready + .portfolio__pages {
+  right: -165px;
+}
+
+.portfolio__btn_item5.goAlready {
+  right: -170px;
+}
+.portfolio__btn_item5.goAlready + .portfolio__pages {
+  right: -165px;
+}
+
+.portfolio__btn_item6.goAlready {
+  right: -170px;
+}
+.portfolio__btn_item6.goAlready + .portfolio__pages {
+  right: -165px;
+}
+
+.portfolio__btn_item7.goAlready {
+  right: -170px;
+}
+.portfolio__btn_item7.goAlready + .portfolio__pages {
+  right: -165px;
+}
+
+.portfolio__btn_item8.goAlready {
+  right: -170px;
+}
+.portfolio__btn_item8.goAlready + .portfolio__pages {
+  right: -165px;
+}
+
+.portfolio__btn_item9.goAlready {
+  right: -170px;
+}
+.portfolio__btn_item9.goAlready + .portfolio__pages {
+  right: -165px;
+}
+
+.portfolio__btn.goAlready .portfolio__btn-icon {
+  border-top-color: #c30000;
+  border-left-color: #c30000;
+}
+body.lock {
+  overflow: hidden;
+}
