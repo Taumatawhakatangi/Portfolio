@@ -150,6 +150,19 @@ $(function () {
         tabContent.removeClass('hidden');
     })
 
+    // Tабы10
+
+    $('.portfolio__tab_item10').click( function () {
+        const tabBtn = $(this).attr('data-tab');
+        const tabContent = $('.portfolio__content_item10[data-tab="'+ tabBtn +'"]');
+
+        $('.portfolio__tab_item10').removeClass(['bg-blue-700','text-slate-50']);
+        $(this).addClass(['bg-blue-700','text-slate-50']);
+
+        $('.portfolio__content_item10').addClass('hidden');
+        tabContent.removeClass('hidden');
+    })
+
     // Cпойлеры
 
     $('.spoiler__tab').click( function() {
