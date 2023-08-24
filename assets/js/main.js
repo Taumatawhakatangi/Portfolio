@@ -163,6 +163,19 @@ $(function () {
         tabContent.removeClass('hidden');
     })
 
+    // Табы для  catfood
+
+    $('.portfolio__tab_catfood').click( function () {
+        const tabBtn = $(this).attr('data-tab');
+        const tabContent = $('.portfolio__content_catfood[data-tab="'+ tabBtn +'"]');
+
+        $('.portfolio__tab_catfood').removeClass(['bg-blue-700','text-slate-50']);
+        $(this).addClass(['bg-blue-700','text-slate-50']);
+
+        $('.portfolio__content_catfood').addClass('hidden');
+        tabContent.removeClass('hidden');
+    })
+
     // Cпойлеры
 
     $('.spoiler__tab').click( function() {
